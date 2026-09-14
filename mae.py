@@ -26,12 +26,12 @@ melbourne_model = DecisionTreeRegressor(random_state=1, ccp_alpha=0.0)
 # Fit model
 melbourne_model.fit(X, y)
 
-print("Making predictions for the following 5 houses:")
-print(X.head(), "\n")
-print("The predictions are")
-print(melbourne_model.predict(X.head()))
-print("\ny real values:")
-print(y.head())
+# print("Making predictions for the following 5 houses:")
+# print(X.head(), "\n")
+# print("The predictions are")
+# print(melbourne_model.predict(X.head()))
+# print("\ny real values:")
+# print(y.head())
 
 
 predicted_home_prices = melbourne_model.predict(X)
